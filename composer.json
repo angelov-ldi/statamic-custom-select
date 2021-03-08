@@ -1,0 +1,39 @@
+{
+    "name": "linksderisar/statamic-custom-select",
+    "type": "statamic-addon",
+    "description": "Custom select field",
+    "keywords": [
+        "statamic"
+    ],
+    "license": "MIT",
+    "require": {
+        "statamic/cms": "3.0.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\Statamic\\Extensions\\custom_select\\CustomSelect\\": "src"
+        }
+    },
+    "authors": [
+        {
+            "name": "Andrey Angelov",
+            "email": "a.angelov@linksderisar.com",
+            "homepage": "https://www.linksderisar.com",
+            "role": "Developer"
+        }
+    ],
+    "extra": {
+        "statamic": {
+            "name": "CustomSelect",
+            "description": "Custom select field",
+            "version": "1.0.0"
+        },
+        "laravel": {
+            "providers": [
+                "App\\Statamic\\Extensions\\custom_select\\CustomSelect\\CustomSelectServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
