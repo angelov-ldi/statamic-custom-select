@@ -24,8 +24,8 @@
 </template>
 
 <script>
-    import jsonDataDynamicLinks from '../../../../../../resources/statamic/definitions/dynamic-links.json';
-    import jsonSVGIcons from '../../../../../../resources/statamic/definitions/svg-icons.json';
+    import jsonDataDynamicLinks from '../definitions/dynamic-links.json';
+    import jsonSVGIcons from '../definitions/svg-icons.json';
 
     export default {
         props: {
